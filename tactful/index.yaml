@@ -2,42 +2,65 @@ apiVersion: v1
 entries:
   tactful:
   - apiVersion: v2
-    appVersion: v32.0.2
-    created: "2022-04-10T15:27:28.3407669+02:00"
+    appVersion: v32.0.5
+    created: "2022-04-14T12:05:05.8510555+02:00"
     dependencies:
     - condition: redis.included
       name: redis
       repository: https://charts.bitnami.com/bitnami
-      tags:
-      - db
       version: 16.5.5
     - condition: elasticsearch.included
       name: elasticsearch
       repository: https://charts.bitnami.com/bitnami
-      tags:
-      - db
       version: 17.9.16
     - condition: kibana.included
       name: kibana
-      repository: https://charts.bitnami.com/bitnami
-      tags:
-      - db
-      version: 9.3.15
-    - condition: nifi.included
-      name: nifi
       repository: ""
-      tags:
-      - orchestration
-      version: 1.0.6
+      version: 9.3.15
     - alias: db
       condition: db.included
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
-      tags:
-      - db
       version: 11.1.10
     description: Helm chart for the full Tactful AI platform
-    digest: 03f4179b7a414cc19c3a90f04134de16b6a8342d1c08aa69758d72681d7d4590
+    digest: 663b420abc395245bba1005dc81e2f59d458b8af4fbe3fd9a5bb09a848e89ce5
+    home: https://tactful.ai
+    icon: https://tactful.ai/wp-content/uploads/2020/09/tactful-logo-guideline.svg
+    keywords:
+    - virtual assistant
+    - chatbot
+    - nlp
+    maintainers:
+    - email: info@tactful.ai
+      name: Tactful.ai
+      url: https://tactful.ai
+    name: tactful
+    urls:
+    - https://tactfu-ai.github.io/charts/tactful-v32.0.5.tgz
+    version: v32.0.5
+  - apiVersion: v2
+    appVersion: v32.0.5
+    created: "2022-04-14T12:05:05.8314068+02:00"
+    dependencies:
+    - condition: redis.included
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.5.5
+    - condition: elasticsearch.included
+      name: elasticsearch
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.9.16
+    - condition: kibana.included
+      name: kibana
+      repository: ""
+      version: 9.3.15
+    - alias: db
+      condition: db.included
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.1.10
+    description: Helm chart for the full Tactful AI platform
+    digest: 94d7cc71f54f2ac4eeccc1d914b7e65c6f7d228be451e214971da36768dee354
     home: https://tactful.ai
     icon: https://tactful.ai/wp-content/uploads/2020/09/tactful-logo-guideline.svg
     keywords:
@@ -52,4 +75,4 @@ entries:
     urls:
     - https://tactfu-ai.github.io/charts/tactful-v32.0.2.tgz
     version: v32.0.2
-generated: "2022-04-10T15:27:28.2936156+02:00"
+generated: "2022-04-14T12:05:05.8092714+02:00"
