@@ -3,7 +3,7 @@ entries:
   tactful:
   - apiVersion: v2
     appVersion: v32.0.5
-    created: "2022-04-14T12:05:05.8510555+02:00"
+    created: "2022-04-14T22:26:09.2767846+02:00"
     dependencies:
     - condition: redis.included
       name: redis
@@ -23,7 +23,7 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 11.1.10
     description: Helm chart for the full Tactful AI platform
-    digest: 663b420abc395245bba1005dc81e2f59d458b8af4fbe3fd9a5bb09a848e89ce5
+    digest: e21630a985b5495826494617871cf667edfe4ccad23bf3ea9ebcdfcf33d01fae
     home: https://tactful.ai
     icon: https://tactful.ai/wp-content/uploads/2020/09/tactful-logo-guideline.svg
     keywords:
@@ -40,7 +40,7 @@ entries:
     version: v32.0.5
   - apiVersion: v2
     appVersion: v32.0.5
-    created: "2022-04-14T12:05:05.8314068+02:00"
+    created: "2022-04-14T22:26:09.2497053+02:00"
     dependencies:
     - condition: redis.included
       name: redis
@@ -75,4 +75,4 @@ entries:
     urls:
     - https://tactfu-ai.github.io/charts/tactful-v32.0.2.tgz
     version: v32.0.2
-generated: "2022-04-14T12:05:05.8092714+02:00"
+generated: "2022-04-14T22:26:09.2181022+02:00"
